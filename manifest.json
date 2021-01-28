@@ -1,0 +1,20 @@
+{
+	"name":"Sveriges Radio"
+	,"description":"Sveriges Radio web radio"
+	,"version":1
+	,"type":"player"
+	,"scope":[
+		"BetterLog"
+    	,"BetterUtil.cX.checkType"
+		,"BetterUtil.cX.BetterDate"
+    	,"BetterUtil.httpX.get"
+    	,"api.apps.q-ffprobe.ffprobe"
+    	,"api.apps.q-ffmpeg.source"
+    	,"cheerio"
+	]
+	,"main":"sr.player.js"
+	,"simultaneousPlay":true
+	,"online":true
+	,"infinitLibrary":false 
+	,"uriPrefix":"sverigesradio"	
+}
